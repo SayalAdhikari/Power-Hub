@@ -1,0 +1,42 @@
+body{
+    font-family: 'poppins';
+}
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+}
+
+.navtext{
+    display: flex;
+    gap: 32px;
+}
+
+.navtext p{
+    font-weight: bold;
+}
+
+.navtext .navactive{
+    color:brown;
+}
+
+.slider{
+    margin:0px 60px 60px 120px;
+}
+
+.slider img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.button{
+    text-decoration: none;
+    background-color: aqua;
+    color: rgb(255, 0, 0);
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.textbox h2, .textbox p{
+    margin: 30px;
+}
